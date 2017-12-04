@@ -1,0 +1,36 @@
+body {
+    background: #376062;
+    /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(50% 55%, closest-side, #b8c8c8, #376062, #03383b);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(50% 55%, closest-side, #b8c8c8, #376062, #03383b);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-radial-gradient(50% 55%, closest-side, #b8c8c8, #376062, #03383b);
+    /* For Firefox 3.6 to 15 */
+    background: radial-gradient(50% 55%, closest-side, #b8c8c8, #376062, #03383b);
+    /* Standard syntax */
+    margin: 0px;
+    padding: 0px;
+}
+
+.app {
+    width: 315px;
+    margin: 0px auto;
+    background: url('../img/bg_elements.svg') repeat-y;
+    background-position: 50% 50%;
+}
+
+.bbtext {
+    padding: 20% 0% 5% 10%;
+    margin: 0px auto;
+}
+
+.bbhead {
+    padding: 0% 0% 10% 0%;
+}
+
+.spalashLogo {
+    position: relative;
+    float: right;
+    padding: 0% 0% 30% 2%;
+}
