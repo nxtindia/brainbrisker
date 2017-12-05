@@ -15,22 +15,22 @@
 
 <body>
 
-    <div class="app">
-        <img src="img/BB_text.svg" class="bbtext" width="80%" />
-        <img src="img/BB_head.png" alt="Brain Brisker" class="bbhead" />
-        <img src="img/NXT_white.svg" width="50%" class="spalashLogo" />
-        <!--<h1>PhoneGap</h1>
-        <div id=" registration " class="blink ">
-            <p class="event waiting ">Requesting Registration ID</p>
-            <p class="event received ">Registered</p>
-        </div>-->
+    <div class="profile">
+        <h3>Create Profile</h3>
+        <img src="img/default_profile.png" />
+        <input type="text" name="fname" placeholder="Name">
+        <input type="email" name="fname" placeholder="email">
+        <ul class="ageLimit">
+            <li><img src="img/7_12yrs.png" /></li>
+            <li><img src="img/13_22yrs.png" /></li>
+            <li><img src="img/23_30yrs.png" /></li>
+            <li><img src="img/30+yrs.png" /></li>
+        </ul>
     </div>
-    <script type="text/javascript " src="cordova.js "></script>
-    <script type="text/javascript " src="js/index.js "></script>
     <script type="text/javascript ">
         app.initialize();
         setTimeout(function() {
-            window.location.href = 'landingPage.html'
+            window.location.href = 'spec.html'
         }, 5000);
     </script>
 </body>

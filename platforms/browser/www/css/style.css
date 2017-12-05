@@ -1,36 +1,97 @@
-body {
-    background: #376062;
-    /* For browsers that do not support gradients */
-    background: -webkit-radial-gradient(50% 55%, closest-side, #b8c8c8, #376062, #03383b);
-    /* For Safari 5.1 to 6.0 */
-    background: -o-radial-gradient(50% 55%, closest-side, #b8c8c8, #376062, #03383b);
-    /* For Opera 11.1 to 12.0 */
-    background: -moz-radial-gradient(50% 55%, closest-side, #b8c8c8, #376062, #03383b);
-    /* For Firefox 3.6 to 15 */
-    background: radial-gradient(50% 55%, closest-side, #b8c8c8, #376062, #03383b);
-    /* Standard syntax */
-    margin: 0px;
-    padding: 0px;
-}
-
-.app {
-    width: 315px;
-    margin: 0px auto;
-    background: url('../img/bg_elements.svg') repeat-y;
-    background-position: 50% 50%;
-}
-
-.bbtext {
-    padding: 20% 0% 5% 10%;
-    margin: 0px auto;
-}
-
-.bbhead {
-    padding: 0% 0% 10% 0%;
-}
-
-.spalashLogo {
-    position: relative;
-    float: right;
-    padding: 0% 0% 30% 2%;
-}
+    body {
+        background: #376062;
+        /* For browsers that do not support gradients */
+        background: -webkit-radial-gradient(50% 55%, closest-side, #b8c8c8, #376062, #03383b);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-radial-gradient(50% 55%, closest-side, #b8c8c8, #376062, #03383b);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-radial-gradient(50% 55%, closest-side, #b8c8c8, #376062, #03383b);
+        /* For Firefox 3.6 to 15 */
+        background: radial-gradient(50% 55%, closest-side, #b8c8c8, #376062, #03383b);
+        /* Standard syntax */
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .app {
+        width: 315px;
+        margin: 0px auto;
+        background: url('../img/bg_elements.svg') repeat-y;
+        background-position: 50% 50%;
+    }
+    
+    .bbtext {
+        padding: 20% 0% 5% 10%;
+        margin: 0px auto;
+    }
+    
+    .bbhead {
+        padding: 0% 0% 10% 0%;
+    }
+    
+    .spalashLogo {
+        position: relative;
+        float: right;
+        padding: 0% 0% 30% 2%;
+    }
+    
+    .profile {
+        width: 80%;
+        height: 80%;
+        background-color: #f9f9fa;
+        margin: 0px auto;
+        text-align: center;
+    }
+    
+    .profile h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: #9da0a3;
+        font-weight: 100;
+        padding: 2% 0% 2% 0;
+    }
+    
+    .profile input {
+        width: 80%;
+        margin: 0px auto;
+        padding: 15px 10px;
+        border: 1px solid #a9a8a8;
+        font-size: 20px;
+        margin-bottom: 10%;
+        color: #f3715b;
+    }
+    
+    .profile img {
+        padding-bottom: 5%
+    }
+    
+    .ageLimit {
+        width: 106%;
+        margin: 0px auto;
+    }
+    
+    ul,
+    ul li,
+    .ageLimit ul,
+    .ageLimit li {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+    }
+    
+    .ageLimit li {
+        list-style: none;
+        float: left;
+        margin-right: 15px;
+        position: relative;
+        width: 20%;
+    }
+    
+    .ageLimit li img {
+        width: 85%;
+    }
+    
+    .profile ul {
+        position: relative;
+    }
